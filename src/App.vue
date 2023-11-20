@@ -13,9 +13,9 @@ export default {
 </script>
 
 <style lang="scss">
-@import 'tailwindcss/base';
-@import 'tailwindcss/components';
-@import 'tailwindcss/utilities';
+@import url('tailwindcss/base');
+@import url('tailwindcss/components');
+@import url('tailwindcss/utilities');
 
-/*每个页面公共css */
+/* 每个页面公共css */
 </style>
