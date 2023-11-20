@@ -20,10 +20,12 @@ const title: ShallowRef<string> = ref('he1llo');
 
 <style lang="scss" scoped>
 @import url('./index.scss');
+
 .content {
   @apply tw-text-[100px];
-  height: 20px;
+
   font-size: 20px;
+  height: 20px;
   opacity: 1;
 }
 </style>
