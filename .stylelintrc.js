@@ -8,16 +8,12 @@ module.exports = {
   plugins: ['stylelint-order', 'stylelint-prettier', 'stylelint-scss'],
   overrides: [
     {
-      files: ['**/*.(css|html|vue)'],
+      files: ['**/*.(html|vue)'],
       customSyntax: 'postcss-html'
     },
     {
       files: ['*.scss', '**/*.scss'],
-      customSyntax: 'postcss-scss',
-      extends: [
-        'stylelint-config-standard-scss',
-        'stylelint-config-recommended-vue/scss'
-      ]
+      customSyntax: 'postcss-scss'
     }
   ],
   rules: {
