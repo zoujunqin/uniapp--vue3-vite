@@ -1,8 +1,13 @@
 <template>
   <view class="content">
-    <image class="logo" src="/static/logo.png" />
+    <image class="logo tw-ml-[24px]" src="/static/logo.png" />
     <view class="text-area">
-      <text class="title !tw-text-[90px] hover:tw-text-[red]">{{ title }}</text>
+      <text class="title hover:tw-text-[10px]">{{ title }}</text>
+
+      <uni-badge text="1" absolute="rightTop" class="tw-text-[20px]">
+        1111
+      </uni-badge>
+      <pro-text />
     </view>
   </view>
 </template>
@@ -16,6 +21,6 @@ const title: ShallowRef<string> = ref('he1llo');
 <style lang="scss" scoped>
 @import './index.scss';
 .content {
-  @apply tw-text-[100px] tw-text-[red];
+  @apply tw-text-[100px];
 }
 </style>
