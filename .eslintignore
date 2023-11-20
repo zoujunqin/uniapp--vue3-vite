@@ -8,4 +8,4 @@ package.json
 commitlint.config.js
 postcss.config.js
 tailwind.config.js
-stylelint.config.js
+.stylelintrc.js
