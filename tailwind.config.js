@@ -1,7 +1,7 @@
 const cssMacro = require('weapp-tailwindcss/css-macro')
 
 module.exports = {
-  prefix: 'tw-',
+  prefix: 'hx-',
   darkMode: 'hx-dark',
   corePlugins: {
     preflight: false

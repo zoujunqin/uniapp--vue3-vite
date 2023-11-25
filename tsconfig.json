@@ -14,9 +14,14 @@
     "useDefineForClassFields": true,
     "resolveJsonModule": true,
     "lib": ["esnext", "dom"],
-    "paths": {"@/*": ["src/*"]},
+    "paths": {
+      "@/*": ["src/*"],
+      "@@static/*": ["src/static/*"]
+    },
     "types": [
-      "@dcloudio/types"
+      "@dcloudio/types",
+      "node",
+      "vite/client"
     ],
     "typeRoots": ["./node_modules/@types", "./types"]
   },

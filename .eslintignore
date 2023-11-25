@@ -1,5 +1,4 @@
 .husky
-build
 docs
 dist
 /src/static

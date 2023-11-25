@@ -19,5 +19,12 @@ eg: <pro-text />
 ### unit
 基准宽度为 750, 目前设计稿宽度为 375.内部已经做了转换，可直接用 px 单位，会自动转为 rpx, 若不想转为 rpx，使用大写px（PX）
 
+### 图片和背景图
+1. 图片引入写法：![img.png](docs/imgs/img-src-example.png)
+2. 背景图请使用 background-image 写在 style 中：![img.png](docs/imgs/bg-img-example.png)
+
+### 手机预览和调试
+请关闭电脑的防火墙
+
 [常见问题](./docs/FAQ.md)   
 

@@ -1,15 +1,17 @@
-<script>
-export default {
-  onLaunch: function () {
-    console.log('App Launch');
-  },
-  onShow: function () {
-    console.log('App Show');
-  },
-  onHide: function () {
-    console.log('App Hide');
-  }
-};
+<script setup lang="ts">
+import { onHide, onLaunch, onShow } from '@dcloudio/uni-app';
+import { useSystemStore } from '@/pinia/modules/system';
+
+onLaunch(() => {
+  const { setSystemInfo } = useSystemStore();
+  uni.getSystemInfo().then(data => {
+    setSystemInfo(data);
+  });
+});
+
+onShow(() => {});
+
+onHide(() => {});
 </script>
 
 <style lang="scss">
