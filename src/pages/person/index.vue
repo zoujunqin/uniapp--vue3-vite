@@ -10,7 +10,7 @@
       class="hx-flex hx-items-center hx-justify-between hx-pl-[16px] hx-pr-[16px] hx-mt-[12px]"
     >
       <view class="hx-flex">
-        <img
+        <image
           class="hx-w-[56px] hx-h-[56px]"
           :src="import('@@static/person/avatar-login.png')"
         />
