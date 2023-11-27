@@ -15,62 +15,62 @@
 /* 颜色变量 */
 
 /* 行为相关颜色 */
-$uni-color-primary: #0c88fa;
-$uni-color-success: #00b42a;
-$uni-color-warning: #ff7d00;
-$uni-color-error: #e51a1a;
+$uni-color-primary: var(--hx-color-primary);
+$uni-color-success: var(--hx-color-success);
+$uni-color-warning: var(--hx-color-warning);
+$uni-color-error: var(--hx-color-error);
 
 /* 文字基本颜色 */
-$uni-text-color: #595865; // 基本色
-$uni-text-color-inverse: #fff; // 反色
-$uni-text-color-grey: #999; // 辅助灰色，
-$uni-text-color-placeholder: #c0c4cc;
-$uni-text-color-disable: #c0c0c0;
+$uni-text-color: var(--hx-text-color);
+$uni-text-color-inverse: var(--hx-text-color-inverse);
+$uni-text-color-grey: var(--hx-text-color-grey);
+$uni-text-color-placeholder: var(--hx-text-color-placeholder);
+$uni-text-color-disable: var(--hx-text-color-disable);
 
 /* 背景颜色 */
-$uni-bg-color: #fff;
-$uni-bg-color-grey: #f8f8f8;
-$uni-bg-color-hover: #f1f1f1; // 点击状态颜色
-$uni-bg-color-mask: rgb(33 33 33 / 50%); // 遮罩颜色
+$uni-bg-color: var(--hx-bg-color);
+$uni-bg-color-grey: var(--hx-bg-color-grey);
+$uni-bg-color-hover: var(--hx-bg-color-hover);
+$uni-bg-color-mask: var(--hx-bg-color-mask);
 
 /* 边框颜色 */
-$uni-border-color: #c8c7cc;
+$uni-border-color: var(--hx-border-color);
 
 /* 尺寸变量 */
 
 /* 文字尺寸 */
-$uni-font-size-sm: 12px;
-$uni-font-size-base: 14px;
-$uni-font-size-lg: 16;
+$uni-font-size-sm: var(--hx-font-size-sm);
+$uni-font-size-base: var(--hx-font-size-base);
+$uni-font-size-lg: var(--hx-font-size-lg);
 
 /* 图片尺寸 */
-$uni-img-size-sm: 20px;
-$uni-img-size-base: 26px;
-$uni-img-size-lg: 40px;
+$uni-img-size-sm: var(--hx-img-size-sm);
+$uni-img-size-base: var(--hx-img-size-base);
+$uni-img-size-lg: var(--hx-img-size-lg);
 
 /* Border Radius */
-$uni-border-radius-sm: 2px;
-$uni-border-radius-base: 3px;
-$uni-border-radius-lg: 6px;
-$uni-border-radius-circle: 50%;
+$uni-border-radius-sm: var(--hx-border-radius-sm);
+$uni-border-radius-base: var(--hx-border-radius-base);
+$uni-border-radius-lg: var(--hx-border-radius-lg);
+$uni-border-radius-circle: var(--hx-border-radius-circle);
 
 /* 水平间距 */
-$uni-spacing-row-sm: 5px;
-$uni-spacing-row-base: 10px;
-$uni-spacing-row-lg: 15px;
+$uni-spacing-row-sm: var(--hx-spacing-row-sm);
+$uni-spacing-row-base: var(--hx-spacing-row-base);
+$uni-spacing-row-lg: var(--hx-spacing-row-lg);
 
 /* 垂直间距 */
-$uni-spacing-col-sm: 4px;
-$uni-spacing-col-base: 8px;
-$uni-spacing-col-lg: 12px;
+$uni-spacing-col-sm: var(--hx-spacing-col-sm);
+$uni-spacing-col-base: var(--hx-spacing-col-base);
+$uni-spacing-col-lg: var(--hx-spacing-col-lg);
 
 /* 透明度 */
-$uni-opacity-disabled: 0.3; // 组件禁用态的透明度
+$uni-opacity-disabled: var(--hx-opacity-disabled);
 
 /* 文章场景相关 */
-$uni-color-title: #141731; // 文章标题颜色
-$uni-font-size-title: 22px;
-$uni-color-subtitle: #555; // 二级标题颜色
-$uni-font-size-subtitle: 18px;
-$uni-color-paragraph: #3f536e; // 文章段落颜色
-$uni-font-size-paragraph: 15px;
+$uni-color-title: var(--hx-color-title);
+$uni-font-size-title: var(--hx-font-size-title);
+$uni-color-subtitle: var(--hx-color-subtitle);
+$uni-font-size-subtitle: var(--hx-font-size-subtitle);
+$uni-color-paragraph: var(--hx-color-paragraph);
+$uni-font-size-paragraph: var(--hx-font-size-paragraph);

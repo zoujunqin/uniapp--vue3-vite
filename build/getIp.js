@@ -2,7 +2,7 @@ const os = require('os');
 
 const getIp = () => {
   const networkInterfaces = os.networkInterfaces();
-  let ip = '';
+  let ip;
   for (const dev in networkInterfaces) {
     networkInterfaces[dev].forEach(function (details) {
       if (details.family === 'IPv4' && !details.internal) ip = details.address;

@@ -2,6 +2,9 @@
 node >=16.14.x  </br>
 pnpm >=8.x
 
+### npm 包
+安装包时请指定版本
+
 ### css
 项目使用 scss + tailwind
 

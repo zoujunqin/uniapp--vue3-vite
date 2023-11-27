@@ -1,23 +1,14 @@
 import uni from '@dcloudio/vite-plugin-uni';
-import { resolve } from 'path';
 import { defineConfig } from 'vite';
 import { UnifiedViteWeappTailwindcssPlugin as uvtw } from 'weapp-tailwindcss/vite';
 import { plugins as postcssPlugins } from './postcss.config';
-import { weAppTailwindcssDisabled } from './build/platform.js';
-import { ip, port } from './build/http-server';
-
-const pathResolve = dir => {
-  return resolve(__dirname, '.', dir);
-};
+import { weAppTailwindcssDisabled } from './build/platform';
+import { getAlias } from './build/getAlias';
 
 // https://vitejs.dev/config/
 export default defineConfig({
   resolve: {
-    alias: {
-      '@': pathResolve('src'),
-      '@@static':
-        process.env.NODE_ENV === 'development' ? `http://${ip}:${port}` : ''
-    }
+    alias: getAlias()
   },
   plugins: [
     uni(),
